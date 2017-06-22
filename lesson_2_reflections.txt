@@ -13,3 +13,9 @@ The staging area holds the files that have been added but not yet committed to t
 How can you use the staging area to make sure you have one commit per logical change?
 
 Only add files part of the logical commit.  Use reset to remove unrelated changes (if the loss of change isn't too great).
+
+-----------------------------------------------------------------
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+experimental branches, dangerous changes needing special testing, new features.  Branches allow simulataneous editing on different branches.  At a later time branches can be merged together.
