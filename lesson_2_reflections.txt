@@ -31,3 +31,9 @@ By showing you the parent relationships so you can see what is reachable from wh
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Combine all changes between two branches into one.  All previous commits from both branches are available in merged branch.
+
+-----------------------------------------------------------------
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is easy but won't happen if there are conflicts.  Manual merging is more work but give you more vision and control over the changes and lets you resolve conflicts.
