@@ -7,3 +7,9 @@ Tell git to create meta data and set up version control in that directory.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area holds the files that have been added but not yet committed to the repository.  Allows finer control of which files go into a particular commit.
+
+-----------------------------------------------------------------
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Only add files part of the logical commit.  Use reset to remove unrelated changes (if the loss of change isn't too great).
