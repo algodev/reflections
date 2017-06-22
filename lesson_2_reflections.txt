@@ -25,3 +25,9 @@ experimental branches, dangerous changes needing special testing, new features. 
 How do the diagrams help you visualize the branch structure?
 
 By showing you the parent relationships so you can see what is reachable from where you are.
+
+-----------------------------------------------------------------
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Combine all changes between two branches into one.  All previous commits from both branches are available in merged branch.
