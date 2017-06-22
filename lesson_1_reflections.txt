@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Found differences quicker than scanning files by hand.
+
+Practically a requirement to use a diff tool for files bigger than just a handfull of lines.
+
+A diff tool won't miss differences that a human could.
+
+-----------------------------------------------------------------------
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You can easily see all the stepwise changes throughout the history of the file.
+
+-----------------------------------------------------------------------
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+When you can manually dictate when a save occurs, you have total control over the save process and can ensure logical save points (which hopefully also compile).  The con is you have to be diligent about remembering to save.
+
+-----------------------------------------------------------------------
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Google probably only saves actual changes for space reasons.  Git saves all files together so you can pull down a complete set of files from one commit, even though some files might not differ from previous versions.
+
+-----------------------------------------------------------------------
+
+How can you use the commands git log and git diff to view the history of files?
+
+log will show you the hash code identifying the commit that you can then use to compare to another commit with diff with that commits hashcode.
+
+-----------------------------------------------------------------------
+
+How might using version control make you more confident to make changes that could break something?
+
+Because you can roll back to previous commits, undoing the change the caused the problem.
+
+-----------------------------------------------------------------------
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Source code versioning, maintenance, control, logging, diffing!!!
