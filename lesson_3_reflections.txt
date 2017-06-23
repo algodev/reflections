@@ -27,3 +27,9 @@ This allows you to work off-line on the remote changes.
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 email, other vcs, something such as slack.  email and other collab methods dont' have such a learning curve but also don't have change logs and merging features a vcs does.
+
+------------------------------------------------------------------------
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Working on the master is less involved than using a separate branch but a separate branch allows you to collaborate and ensure changes are correct before committing to the master.
